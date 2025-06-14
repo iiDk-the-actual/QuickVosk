@@ -13,7 +13,7 @@ class Program
     {
         if (args.Length != 1 || args[0] == "-?" || args[0] == "--help")
         {
-            Console.WriteLine("Usage: MySpeechApp.exe <path-to-audio.wav>");
+            Console.WriteLine("Usage: QuickVosk.exe <path-to-audio.wav>");
             Console.WriteLine("Note: WAV must be mono, 16-bit PCM, 16kHz.");
             return;
         }
